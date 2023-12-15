@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="700.0" style="-fx-background-color: #242CDE;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.bohdanindproject.RegistrationController">
+   <children>
+      <AnchorPane layoutX="3.0" prefHeight="134.0" prefWidth="700.0">
+         <children>
+            <Label layoutX="50.0" layoutY="22.0" prefHeight="90.0" prefWidth="600.0" style="-fx-background-color: #29CDCD; -fx-background-radius: 30;" text="                     Реєстрація квитків">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </Label>
+         </children></AnchorPane>
+      <AnchorPane layoutY="359.0" prefHeight="83.0" prefWidth="700.0">
+         <children>
+            <Button fx:id="registrate" layoutX="387.0" layoutY="48.0" mnemonicParsing="false" onAction="#registration" prefHeight="59.0" prefWidth="236.0" style="-fx-background-color: #29CDCD; -fx-background-radius: 30;" text="Зареєструвати">
+               <font>
+                  <Font size="28.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutY="134.0" prefHeight="248.0" prefWidth="700.0">
+         <children>
+            <TextField fx:id="pip" layoutX="59.0" layoutY="43.0" prefHeight="59.0" prefWidth="350.0" style="-fx-background-color: #29CDCD; -fx-background-radius: 20;" />
+            <TextField fx:id="date" layoutX="59.0" layoutY="137.0" prefHeight="59.0" prefWidth="350.0" style="-fx-background-color: #29CDCD; -fx-background-radius: 20;" />
+            <Label layoutX="492.0" layoutY="43.0" prefHeight="59.0" prefWidth="146.0" style="-fx-background-color: #29CDCD; -fx-background-radius: 30;" text="        ПІП">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="492.0" layoutY="137.0" prefHeight="59.0" prefWidth="146.0" style="-fx-background-color: #29CDCD; -fx-background-radius: 30;" text="       Дата">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+            <Label fx:id="errorMessage" layoutX="59.0" layoutY="206.0" prefHeight="41.0" prefWidth="350.0" textFill="#edff00">
+               <font>
+                  <Font size="18.0" />
+               </font></Label>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

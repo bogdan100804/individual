@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="700.0" style="-fx-background-color: #DE2424;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.bohdanindproject.MainController">
+   <children>
+      <AnchorPane layoutX="77.0" layoutY="131.0" prefHeight="118.0" prefWidth="540.0">
+         <children>
+            <Label layoutX="-1.0" layoutY="-1.0" prefHeight="118.0" prefWidth="546.0" style="-fx-background-color: #CDBD29; -fx-background-radius: 30;" text=" Ласкаво просимо до театру &quot;Зорепад&quot;">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="-1.0" layoutY="286.0" prefHeight="216.0" prefWidth="700.0">
+         <children>
+            <Button fx:id="next" layoutX="403.0" layoutY="126.0" mnemonicParsing="false" onAction="#nextWindow" prefHeight="66.0" prefWidth="211.0" style="-fx-background-color: #CACD29; -fx-background-radius: 30;" text="Далі">
+               <font>
+                  <Font size="28.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
